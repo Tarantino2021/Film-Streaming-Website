@@ -1,0 +1,59 @@
+.PressSectionFooter {
+  background-color: #323232;
+  padding: 40px 0;
+  color: #fff;
+  h1 {
+    text-align: center;
+    margin-left: -25px;
+    font-size: 15px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+  }
+  .PressSectionFooter_wrapper {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    @include media("<=phoneLarge") {
+      width: 300px;
+    }
+
+    @include media("<=phone") {
+      width: 280px;
+    }
+    @include media("<=phoneSmall") {
+      width: 280px;
+    }
+    .PressSectionFooter_left {
+      ul {
+        list-style: none;
+        li {
+          a {
+            font-size: 13px;
+            line-height: 30px;
+            color: white;
+            &:hover {
+              border-bottom: 1px solid white;
+            }
+          }
+        }
+      }
+    }
+    .PressSectionFooter_center {
+      ul {
+        list-style: none;
+        li {
+          a {
+            font-size: 13px;
+            line-height: 30px;
+            color: white;
+            &:hover {
+              border-bottom: 1px solid white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

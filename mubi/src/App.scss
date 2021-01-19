@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
+@import "./styles/breakpoints.scss";
+@import "./styles/Header/Header.scss";
+@import "./styles/Header/Tooltip.scss";
+@import "./styles/Home/Home.scss";
+@import "./styles/Home/HomeBanner.scss";
+@import "./styles/Home/HomeParralaxSection.scss";
+@import "./styles/Home/HomeParralaxSectionTwo.scss";
+@import "./styles/Home/HomeSectionTwo.scss";
+@import "./styles/Home/HomeSectionLast.scss";
+@import "./styles/Gifts/Gifts.scss";
+@import "./styles/Gifts/GiftsSectionOne.scss";
+@import "./styles/Gifts/GiftsSectionTwo.scss";
+@import "./styles/Gifts/GiftsSectionThree.scss";
+@import "./styles/Gifts/GiftsSectionFour.scss";
+@import "./styles/Gifts/GiftsSectionFiveGrid.scss";
+@import "./styles/Press/PressBanner.scss";
+@import "./styles//Press/PressSectionOne.scss";
+@import "./styles//Press/PressSectionTwo.scss";
+@import "./styles//Press/PressSectionThree.scss";
+@import "./styles/Memberships/MembershipsBanner.scss";
+@import "./styles/Memberships/MembershipsSection.scss";
+@import "./styles/About/AboutBanner.scss";
+@import "./styles/About/AboutSectionOne.scss";
+@import "./styles/About/AboutSectionTwo.scss";
+@import "./styles/About/AboutSectionThree.scss";
+@import "./styles/About/AboutSectionFour.scss";
+@import "./styles/About/AboutSectionFive.scss";
+@import "./styles/WaysToWatch/WaysToWatchSectionOne.scss";
+@import "./styles/WaysToWatch/WaysToWatchSectionTwo.scss";
+@import "./styles/WaysToWatch/WaysToWatchSectionThree.scss";
+@import "./styles/Contact/ContactSection.scss";
+@import "./styles/Contact/Contact.scss";
+@import "./styles/Modal/Modal.scss";
+@import "./styles/Modal/ModalLogin.scss";
+@import "./styles/Modal/ModalSignUp.scss";
+@import "./styles/Modal/ModalForgotPassword.scss";
+@import "./styles/Modal/LogedIn.scss";
+@import "./styles/Modal/SignedUp.scss";
+@import "./styles/Modal/PasswordSent.scss";
+@import "./styles/YoutubeModal/YoutubeModal.scss";
+@import "./styles/Footer/Footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  user-select: none;
+  overscroll-behavior: none;
+  font-family: DMSans, Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

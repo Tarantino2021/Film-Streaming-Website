@@ -1,0 +1,188 @@
+.HomeSectionLast {
+  padding: 100px 0 30px;
+  width: 100%;
+  max-width: 1130px;
+  height: 516px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 10%;
+  align-items: center;
+  @include media(">=LGdesktop") {
+  }
+  @include media("<=desktop") {
+  }
+  @include media("<=laptop") {
+  }
+  @include media("<=tablet") {
+    height: 400px;
+    padding: 70px 0;
+    margin: 0 20px;
+  }
+  @include media("<=phoneLarge") {
+    height: 400px;
+    padding: 70px 0;
+    margin: 0 20px;
+  }
+  @include media("<=phone") {
+    height: 400px;
+    padding: 70px 0;
+    margin: 0 20px;
+  }
+  @include media("<=phoneSmall") {
+    height: 400px;
+    padding: 70px 0;
+    margin: 0 20px;
+  }
+
+  .HomeSectionLast_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 400px;
+    @include media(">=LGdesktop") {
+    }
+    @include media("<=desktop") {
+    }
+    @include media("<=laptop") {
+    }
+    @include media("<=tablet") {
+      height: 400px;
+      justify-content: center;
+    }
+    @include media("<=phoneLarge") {
+      height: 400px;
+      justify-content: center;
+    }
+    @include media("<=phone") {
+      height: 400px;
+      justify-content: center;
+    }
+    @include media("<=phoneSmall") {
+      height: 400px;
+      justify-content: center;
+    }
+    .HomeSectionLast__text_wrraper {
+      margin-top: 40px;
+      .HomeSectionLast_text {
+        width: 100%;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #323232;
+        font-weight: bold;
+        line-height: 1;
+        margin-bottom: 36px;
+        @include media(">=LGdesktop") {
+          font-size: 44px;
+          width: 1200px;
+        }
+        @include media("<=desktop") {
+        }
+        @include media("<=laptop") {
+          font-size: 24px;
+          width: 710px;
+        }
+        @include media("<=tablet") {
+          font-size: 20px;
+          width: 600px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 18px;
+          width: 250px;
+        }
+        @include media("<=phone") {
+          font-size: 18px;
+          width: 250px;
+          margin-top: 40px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 18px;
+          width: 250px;
+          margin-top: 40px;
+        }
+      }
+    }
+
+    .HomeSectionLast_btn_wrapper {
+      .HomeSectionLast_btn {
+        top: 70%;
+        left: 5%;
+        line-height: 1.5;
+        color: white;
+        background-color: #001489;
+        border: 1px solid #001489;
+        padding: 13px 25px;
+        cursor: pointer;
+        line-height: 1.5;
+        color: white;
+        text-decoration: none;
+        border-radius: 2px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-flex;
+        font-size: 22px;
+        width: 250px;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include media(">=LGdesktop") {
+        }
+        @include media("<=desktop") {
+        }
+        @include media("<=laptop") {
+        }
+        @include media("<=tablet") {
+        }
+        @include media("<=phoneLarge") {
+        }
+        @include media("<=phone") {
+        }
+        @include media("<=phoneSmall") {
+        }
+
+        &:hover {
+          background-color: #021cac;
+          border: 1px solid #021cac;
+        }
+      }
+    }
+    .HomeSectionLast_paragraph {
+      margin-top: 100px;
+      font-size: 10px;
+      font-weight: bold;
+      color: #7d7d7d;
+      width: 930px;
+      @include media(">=LGdesktop") {
+        font-size: 17px;
+      }
+      @include media("<=desktop") {
+      }
+      @include media("<=laptop") {
+      }
+      @include media("<=tablet") {
+        width: 300px;
+        line-height: 14px;
+        margin-top: 80px;
+      }
+      @include media("<=phoneLarge") {
+        width: 300px;
+        line-height: 14px;
+        margin-top: 80px;
+      }
+      @include media("<=phone") {
+        width: 300px;
+        line-height: 14px;
+        margin-top: 80px;
+      }
+      @include media("<=phoneSmall") {
+        width: 300px;
+        line-height: 14px;
+        margin-top: 80px;
+      }
+      a {
+        margin: 0 2px;
+        color: #021cac;
+      }
+    }
+  }
+}

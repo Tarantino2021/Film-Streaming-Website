@@ -1,0 +1,203 @@
+.WaysToWatchSectionTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 140px;
+  @include media("<=tablet") {
+    margin-top: 10px;
+  }
+  @include media("<=phoneLarge") {
+    margin-top: 10px;
+  }
+  @include media("<=phone") {
+    margin-top: 10px;
+  }
+  @include media("<=phoneSmall") {
+    margin-top: 10px;
+  }
+  .WaysToWatchSectionTwo_line {
+    position: absolute;
+    width: 1000px;
+    background-color: #eaeaea;
+    height: 1px;
+    top: -60px;
+    left: 9%;
+    @include media("<=tablet") {
+      left: -30%;
+    }
+    @include media("<=phoneLarge") {
+      left: -30%;
+    }
+    @include media("<=phone") {
+      left: -30%;
+    }
+    @include media("<=phoneSmall") {
+      left: -31%;
+    }
+  }
+  .WaysToWatchSectionTwo_content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    position: relative;
+    @include media("<=tablet") {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    @include media("<=phoneLarge") {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    @include media("<=phone") {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    @include media("<=phoneSmall") {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .WaysToWatchSectionTwo_left {
+      margin-left: -120px;
+      @include media("<=tablet") {
+        margin-left: -20px;
+      }
+      @include media("<=phoneLarge") {
+        margin-left: -20px;
+      }
+      @include media("<=phone") {
+        margin-left: -20px;
+      }
+      @include media("<=phoneSmall") {
+        margin-left: -20px;
+      }
+      img {
+        width: 700px;
+        @include media("<=tablet") {
+          width: 500px;
+          margin-top: -20px;
+        }
+        @include media("<=phoneLarge") {
+          width: 300px;
+          margin-top: -20px;
+        }
+        @include media("<=phone") {
+          width: 300px;
+          margin-top: -20px;
+        }
+        @include media("<=phoneSmall") {
+          width: 300px;
+          margin-top: -20px;
+        }
+      }
+    }
+    .WaysToWatchSectionTwo_right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 300px;
+      h1 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-size: 26px;
+        @include media("<=tablet") {
+          font-size: 20px;
+          margin-top: -95px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 20px;
+          margin-top: -92px;
+        }
+        @include media("<=phone") {
+          font-size: 20px;
+          margin-top: -92px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 20px;
+          margin-top: -92px;
+        }
+      }
+      .WaysToWatchSectionTwo_textOne {
+        padding: 4px 0;
+        color: #7d7d7d;
+        font-size: 22px;
+        @include media("<=tablet") {
+          font-size: 17px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 17px;
+        }
+        @include media("<=phone") {
+          font-size: 17px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 17px;
+        }
+      }
+      .WaysToWatchSectionTwo_textTwo {
+        padding: 4px 0;
+        color: #7d7d7d;
+        font-size: 22px;
+        @include media("<=tablet") {
+          font-size: 17px;
+          text-align: center;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 17px;
+          text-align: center;
+        }
+        @include media("<=phone") {
+          font-size: 17px;
+          text-align: center;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 17px;
+          text-align: center;
+        }
+      }
+      .WaysToWatchSectionTwo_textThree {
+        padding: 4px 0;
+        color: #7d7d7d;
+        font-size: 22px;
+        @include media("<=tablet") {
+          font-size: 17px;
+          text-align: center;
+          width: 300px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 17px;
+          text-align: center;
+          width: 300px;
+        }
+        @include media("<=phone") {
+          font-size: 17px;
+          text-align: center;
+          width: 300px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 17px;
+          text-align: center;
+          width: 300px;
+        }
+      }
+      img {
+        width: 110px;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}

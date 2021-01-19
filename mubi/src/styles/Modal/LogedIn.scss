@@ -1,0 +1,84 @@
+.Modal_content_password {
+  width: 620px;
+  height: 330px;
+  position: relative;
+  z-index: 66666;
+  background-color: white;
+
+  .Modal_header_password {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 20px;
+    height: 55px;
+    svg {
+      fill: rgb(0, 20, 137);
+      width: 60px;
+      object-fit: contain;
+    }
+    h3 {
+      font-size: 15px;
+      color: rgb(0, 20, 137);
+      margin-right: 20px;
+    }
+    .Modal_close_password {
+      font-size: 20px;
+      margin-right: -20px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+  .LogedIn_body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    .LogedIn_text {
+      font-size: 25px;
+      margin-top: 80px;
+      width: 471px;
+      text-align: center;
+      font-weight: 500;
+      position: relative;
+      margin-bottom: 18px;
+      h2 {
+        color: #a5a5a5;
+        font-weight: 500;
+      }
+    }
+
+    .LogedIn_btn {
+      line-height: 1.5;
+      color: white;
+      margin-top: 20px;
+      background-color: #001489;
+      border: 1px solid #001489;
+      padding: 2px 5px;
+      cursor: pointer;
+      line-height: 1.5;
+      color: white;
+      text-decoration: none;
+      border-radius: 2px;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: inline-flex;
+      font-size: 15px;
+      width: 100px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-color: #021cac;
+        border: 1px solid #021cac;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.Contact {
+  background-image: url("../../photos/Contact/Banner2.jpg");
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-size: cover;
+  background-color: #333;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.Contact__body {
+  z-index: 2;
+  position: relative;
+  .ContactSection_overlay {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .Contact__body_wrapper {
+    text-align: center;
+  }
+  .Contact_socialIcons {
+    position: fixed;
+    bottom: 4%;
+    z-index: 333;
+    right: 5%;
+    svg {
+      color: white;
+      margin-left: 15px;
+      font-size: 24px;
+      opacity: 0.5;
+      z-index: 333;
+      cursor: pointer;
+      @include media("<=tablet") {
+        font-size: 15px;
+      }
+      @include media("<=phoneLarge") {
+        font-size: 15px;
+      }
+      @include media("<=phone") {
+        font-size: 15px;
+      }
+      @include media("<=phoneSmall") {
+        font-size: 15px;
+      }
+      &:hover {
+        color: #001489;
+      }
+    }
+  }
+}

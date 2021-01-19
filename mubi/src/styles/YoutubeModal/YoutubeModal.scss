@@ -1,0 +1,103 @@
+.YoutubeModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5555;
+
+  .YoutubeModal_wrapper_inner {
+    .YoutubeModal_content {
+      width: 820px;
+      height: 530px;
+      position: relative;
+      z-index: 66666;
+      background-color: white;
+      @include media("<=tablet") {
+        max-width: 420px;
+      }
+      @include media("<=phoneLarge") {
+        max-width: 360px;
+        height: 350px;
+      }
+      @include media("<=phone") {
+        max-width: 340px;
+        height: 350px;
+      }
+      @include media("<=phoneSmall") {
+        max-width: 300px;
+        height: 350px;
+      }
+      .YoutubeModal_header {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #eaeaea;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        padding: 0 20px;
+        height: 55px;
+        svg {
+          fill: rgb(0, 20, 137);
+          width: 60px;
+          object-fit: contain;
+        }
+        h3 {
+          font-size: 15px;
+          color: rgb(0, 20, 137);
+          margin-right: 20px;
+        }
+        .YoutubeModal_close {
+          font-size: 20px;
+          margin-right: -20px;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    .YoutubeModal_body {
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+      align-items: center;
+      @include media("<=tablet") {
+        max-width: 420px;
+      }
+      @include media("<=phoneLarge") {
+        max-width: 360px;
+      }
+      @include media("<=phone") {
+        max-width: 340px;
+      }
+      @include media("<=phoneSmall") {
+        max-width: 300px;
+      }
+      .YoutubeModal_video {
+        border-radius: 10px;
+        -webkit-box-shadow: 2px 4px 14px 5px rgba(0, 0, 0, 0.83);
+        box-shadow: 2px 4px 14px 5px rgba(0, 0, 0, 0.83);
+        @include media("<=tablet") {
+          max-width: 380px;
+        }
+        @include media("<=phoneLarge") {
+          max-width: 310px;
+          height: 150px;
+        }
+        @include media("<=phone") {
+          max-width: 300px;
+          height: 150px;
+        }
+        @include media("<=phoneSmall") {
+          max-width: 270px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}

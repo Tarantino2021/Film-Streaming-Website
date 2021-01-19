@@ -1,0 +1,64 @@
+.GiftsSectionTwo {
+  width: 100%;
+  min-height: 600px;
+  margin-bottom: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  .GiftsSectionTwo__content {
+    padding-top: 200px;
+    .GiftsSectionTwo__content_center {
+      width: 560px;
+      height: 515px;
+      @include media("<=phoneLarge") {
+        width: 360px;
+      }
+
+      @include media("<=phone") {
+        width: 310px;
+      }
+      @include media("<=phoneSmall") {
+        width: 280px;
+      }
+
+      .GiftsSectionTwo_top {
+        height: 160px;
+        margin-bottom: 40px;
+        position: relative;
+      }
+      .GiftsSectionTwo_header {
+        text-transform: uppercase;
+        font-size: 36px;
+        line-height: 1.2;
+        max-width: 520px;
+        margin: 0 auto 12px;
+        @include media("<=phoneLarge") {
+          font-size: 28px;
+        }
+
+        @include media("<=phone") {
+          font-size: 25px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 25px;
+        }
+      }
+      .GiftsSectionTwo_text {
+        font-size: 28px;
+        @include media("<=phoneLarge") {
+          font-size: 18px;
+          line-height: 1.3;
+        }
+
+        @include media("<=phone") {
+          font-size: 18px;
+          line-height: 1.3;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 18px;
+          line-height: 1.3;
+        }
+      }
+    }
+  }
+}

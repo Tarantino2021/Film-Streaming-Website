@@ -1,0 +1,262 @@
+.PressSectionOne {
+  width: 1110px;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  @include media(">=LGdesktop") {
+  }
+  @include media("<=desktop") {
+  }
+  @include media("<=laptop") {
+    max-width: 900px;
+  }
+  @include media("<=tablet") {
+    max-width: 500px;
+  }
+  @include media("<=phoneLarge") {
+    width: 435px;
+  }
+
+  @include media("<=phone") {
+    width: 375px;
+  }
+  @include media("<=phoneSmall") {
+    width: 320px;
+  }
+  h3 {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 15px;
+    @include media("<=phoneLarge") {
+      padding: 40px 0;
+      font-size: 12px;
+    }
+    @include media("<=phone") {
+      padding: 40px 0;
+      font-size: 12px;
+    }
+    @include media("<=phoneSmall") {
+      padding: 40px 0;
+      font-size: 12px;
+    }
+  }
+  .PressSectionOne_top {
+    position: relative;
+    img {
+      object-fit: cover;
+      width: 100%;
+      margin-bottom: 20px;
+
+      @include media("<=phoneLarge") {
+        width: 510px;
+        height: 200px;
+        margin-left: -80px;
+      }
+      @include media("<=phone") {
+        width: 510px;
+        height: 200px;
+        margin-left: -110px;
+      }
+      @include media("<=phoneSmall") {
+        width: 510px;
+        height: 200px;
+        margin-left: -110px;
+      }
+    }
+    .PressSectionOne_top_textWrapper {
+      position: absolute;
+      width: 500px;
+      text-align: center;
+      right: 74px;
+      top: 24%;
+      @include media("<=laptop") {
+        width: 500px;
+        right: 110px;
+      }
+      @include media("<=tablet") {
+        width: 300px;
+        right: -10%;
+        top: 7%;
+      }
+      @include media("<=phoneLarge") {
+        width: 300px;
+        left: 40%;
+        top: 2%;
+      }
+      @include media("<=phone") {
+        width: 300px;
+        left: 35%;
+        top: 2%;
+      }
+      @include media("<=phoneSmall") {
+        width: 300px;
+        left: 35%;
+        top: 2%;
+      }
+      h1 {
+        margin-bottom: 10px;
+        color: #0084b1;
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 38px;
+
+        @include media("<=tablet") {
+          font-size: 15px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 240px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+        @include media("<=phone") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+      }
+      h2 {
+        color: #b2b2b1;
+        text-transform: uppercase;
+        font-size: 24px;
+        @include media("<=tablet") {
+          font-size: 14px;
+          width: 240px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 14px;
+          width: 200px;
+        }
+        @include media("<=phone") {
+          font-size: 14px;
+          width: 200px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 14px;
+          width: 200px;
+        }
+      }
+    }
+  }
+
+  .PressSectionOne_bottom {
+    position: relative;
+    img {
+      object-fit: cover;
+      width: 100%;
+      margin-bottom: 20px;
+      @include media("<=phoneLarge") {
+        width: 510px;
+        height: 200px;
+        margin-left: -60px;
+      }
+      @include media("<=phone") {
+        width: 510px;
+        height: 200px;
+        margin-left: -100px;
+      }
+      @include media("<=phoneSmall") {
+        width: 510px;
+        height: 200px;
+        margin-left: -100px;
+      }
+    }
+    .PressSectionOne_bottom_textWrapper {
+      position: absolute;
+      width: 455px;
+      text-align: center;
+      left: 74px;
+      top: 27%;
+      @include media("<=tablet") {
+        width: 300px;
+        left: 2%;
+        top: 29%;
+      }
+      @include media("<=phoneLarge") {
+        width: 400px;
+        margin-left: -60px;
+        top: 40%;
+        left: 20%;
+      }
+      @include media("<=phone") {
+        width: 400px;
+        margin-left: -60px;
+        top: 40%;
+        left: 20%;
+      }
+      @include media("<=phoneSmall") {
+        width: 400px;
+        margin-left: -60px;
+        top: 40%;
+        left: 20%;
+      }
+      h1 {
+        margin-bottom: 10px;
+        color: #fbfbfb;
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 38px;
+        @include media("<=tablet") {
+          font-size: 14px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 250px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+        @include media("<=phone") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 12px;
+          margin-top: 10px;
+          line-height: 20px;
+          width: 198px;
+        }
+      }
+      h2 {
+        color: #565656;
+        text-transform: uppercase;
+        font-size: 24px;
+        @include media("<=tablet") {
+          width: 260px;
+          font-size: 14px;
+        }
+        @include media("<=phoneLarge") {
+          font-size: 14px;
+          width: 200px;
+        }
+        @include media("<=phone") {
+          font-size: 14px;
+          width: 200px;
+        }
+        @include media("<=phoneSmall") {
+          font-size: 14px;
+          width: 200px;
+        }
+      }
+    }
+  }
+}

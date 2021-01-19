@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  height: 62px;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 4444;
+  color: white;
+  @include media("<=desktop") {
+    border-bottom: 0.2px solid rgb(255, 255, 255);
+  }
+  @include media("<=tablet") {
+    border-bottom: 0.2px solid rgb(230, 227, 224);
+  }
+  @include media("<=phone") {
+    border-bottom: 0.2px solid rgb(228, 228, 228);
+  }
+  .nav {
+    width: 90px;
+    position: relative;
+    margin-left: 100px;
+    @include media(">=LGdesktop") {
+      margin-left: 125px;
+    }
+    @include media("<=desktop") {
+      margin-left: 65px;
+    }
+    @include media("<=laptop") {
+      margin-left: 55px;
+    }
+    @include media("<=tablet") {
+      margin-left: 35px;
+    }
+    @include media("<=phoneLarge") {
+      margin-left: 28px;
+    }
+    @include media("<=phone") {
+      margin-left: 28px;
+    }
+    @include media("<=phoneSmall") {
+      margin-left: 28px;
+    }
+
+    .logo_top {
+      color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 80px;
+    width: 140px;
+    @include media("<=desktop") {
+      margin-right: 10px;
+    }
+    @include media("<=tablet") {
+      margin-right: 10px;
+    }
+    @include media("<=phone") {
+      margin-right: 1px;
+    }
+    h1 {
+      font-size: 14px;
+      font-family: DMSans, Helvetica, Arial, "Lucida Grande", sans-serif;
+      cursor: pointer;
+      @include media("<=desktop") {
+        margin-right: 10px;
+      }
+      @include media("<=tablet") {
+        margin-right: 10px;
+      }
+      @include media("<=phone") {
+        font-size: 12px;
+        margin-left: 20px;
+      }
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      width: 40px;
+      cursor: pointer;
+      span {
+        height: 2.74px;
+        width: 13px;
+        background: #fafafa;
+        margin: 1.5px 4px;
+        border-radius: 10px;
+        display: inline-block;
+        position: relative;
+        bottom: 2px;
+      }
+    }
+  }
+}

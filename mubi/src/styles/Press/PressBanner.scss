@@ -1,0 +1,53 @@
+.press {
+  overflow: hidden;
+}
+.PressBanner {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  @include media("<=phoneLarge") {
+    height: 400px;
+  }
+
+  @include media("<=phone") {
+    height: 400px;
+  }
+  @include media("<=phoneSmall") {
+    height: 400px;
+  }
+  .PressBanner_overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  img {
+    background-color: #001489;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include media(">=LGdesktop") {
+    }
+    @include media("<=desktop") {
+    }
+    @include media("<=laptop") {
+    }
+    @include media("<=tablet") {
+    }
+    @include media("<=phoneLarge") {
+      object-fit: contain;
+    }
+
+    @include media("<=phone") {
+      object-fit: contain;
+    }
+    @include media("<=phoneSmall") {
+      object-fit: contain;
+    }
+  }
+}

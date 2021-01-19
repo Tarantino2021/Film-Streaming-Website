@@ -1,0 +1,193 @@
+.AboutSectionFive {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: -70px;
+  @include media("<=desktop") {
+    margin-top: 50px;
+  }
+  @include media("<=laptop") {
+    margin-top: 150px;
+  }
+  @include media("<=tablet") {
+    margin-top: 70px;
+  }
+  @include media("<=phoneLarge") {
+    margin-top: 40px;
+  }
+
+  @include media("<=phone") {
+    margin-top: 20px;
+  }
+  @include media("<=phoneSmall") {
+    margin-top: 20px;
+  }
+  .AboutSectionFive_header {
+    width: 665px;
+    h1 {
+      color: #7d7d7d;
+      font-size: 61px;
+      margin-bottom: 10px;
+      margin-top: -20px;
+      text-align: center;
+      @include media("<=laptop") {
+        font-size: 50px;
+      }
+      @include media("<=tablet") {
+        font-size: 41px;
+      }
+      @include media("<=phoneLarge") {
+        font-size: 31px;
+      }
+
+      @include media("<=phone") {
+        font-size: 21px;
+      }
+      @include media("<=phoneSmall") {
+        font-size: 21px;
+      }
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+    h3 {
+      color: #7d7d7d;
+      text-align: center;
+      padding: 5px 0;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: 0.6px;
+      @include media("<=laptop") {
+      }
+      @include media("<=tablet") {
+        width: 420px;
+        margin-left: 130px;
+      }
+      @include media("<=phoneLarge") {
+        width: 390px;
+        margin-left: 138px;
+      }
+
+      @include media("<=phone") {
+        width: 290px;
+        margin-left: 188px;
+      }
+      @include media("<=phoneSmall") {
+        width: 290px;
+        margin-left: 188px;
+      }
+    }
+  }
+  .AboutSectionFive_images {
+    width: 1030px;
+    height: 325px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media("<=laptop") {
+      justify-content: center;
+      align-items: center;
+      width: 340px;
+      height: 200px;
+    }
+    @include media("<=tablet") {
+      justify-content: center;
+      align-items: center;
+      width: 340px;
+      height: 200px;
+    }
+    @include media("<=phoneLarge") {
+      justify-content: center;
+      align-items: center;
+      width: 340px;
+      height: 200px;
+    }
+
+    @include media("<=phone") {
+      justify-content: center;
+      align-items: center;
+      width: 340px;
+      height: 200px;
+    }
+    @include media("<=phoneSmall") {
+      justify-content: center;
+      align-items: center;
+      width: 340px;
+      height: 200px;
+    }
+    .img1 {
+      object-fit: cover;
+      width: 320px;
+      height: 187px;
+      @include media("<=laptop") {
+        display: none;
+      }
+      @include media("<=tablet") {
+        display: none;
+      }
+      @include media("<=phoneLarge") {
+        display: none;
+      }
+
+      @include media("<=phone") {
+        display: none;
+      }
+      @include media("<=phoneSmall") {
+        display: none;
+      }
+    }
+    .img2 {
+      object-fit: cover;
+      width: 342px;
+      height: 153px;
+      @include media("<=laptop") {
+      }
+      @include media("<=tablet") {
+        width: 422px;
+      }
+      @include media("<=phoneLarge") {
+        width: 392px;
+      }
+
+      @include media("<=phone") {
+        width: 342px;
+      }
+      @include media("<=phoneSmall") {
+        width: 320px;
+      }
+    }
+    .img3 {
+      object-fit: cover;
+      width: 316px;
+      height: 208px;
+      @include media("<=laptop") {
+        display: none;
+      }
+      @include media("<=tablet") {
+        display: none;
+      }
+      @include media("<=phoneLarge") {
+        display: none;
+      }
+
+      @include media("<=phone") {
+        display: none;
+      }
+      @include media("<=phoneSmall") {
+        display: none;
+      }
+    }
+  }
+
+  img {
+    margin-top: 40px;
+    width: 320px;
+    @include media("<=phoneSmall") {
+      width: 250px;
+    }
+  }
+}
