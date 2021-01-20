@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ContextProvider from "./context/contextProvider";
+require("dotenv").config();
 
 ReactDOM.render(
   <React.StrictMode>
