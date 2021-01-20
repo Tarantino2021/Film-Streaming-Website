@@ -49,12 +49,13 @@ function HomeBanner() {
           <div className="banner__video__wrapper">
             <video
               className="banner__video"
-              width="100%"
+              width="1920px"
               height="100%"
               loop
               autoPlay
-              src="https://assets.mubicdn.net/trailers/splash_staggering_desktop.mp4"
+              src="https://player.vimeo.com/external/424963577.sd.mp4?s=8229b9953901373aa629eef159783d52c4349d8f&profile_id=164"
               type="video/mp4"
+              muted="muted"
             />
           </div>
 
@@ -92,7 +93,7 @@ function HomeBanner() {
                     <div className="text">
                       A New Film
                       <br />
-                      <span> </span>Every single week.
+                      <span> </span>Every week.
                     </div>
                   </motion.div>
                 </div>
