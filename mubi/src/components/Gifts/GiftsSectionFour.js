@@ -11,23 +11,18 @@ function GiftsSectionFour() {
           <div className="GiftsSectionFour__logo">
             <img src={GiftIconOne} />
           </div>
-          <h2 className="GiftsSectionFour__header">Take movies with you</h2>
+          <h2 className="GiftsSectionFour__header">Watch it Now</h2>
           <p className="GiftsSectionFour__text">
-            Take movies and watch offline in HD on your iOS or Android device.
+            Download movies and watch them whenever you want. Or stream them
+            live.
           </p>
           <div className="GiftsSectionFour__btn__wrapper_one">
-            <a
-              href="https://apps.apple.com/app/apple-store/id626148774"
-              target="_blank"
-            >
+            <a href="https://www.apple.com/shop" target="_blank">
               <img src={GiftIconBadge} />
             </a>
           </div>
           <div className="GiftsSectionFour__btn__wrapper_two">
-            <a
-              href="https://play.google.com/store/apps/details?id=com.mubi"
-              target="_blank"
-            >
+            <a href="https://play.google.com/store" target="_blank">
               <img src={GiftIconBadge} />
             </a>
           </div>

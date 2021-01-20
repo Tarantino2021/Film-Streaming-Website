@@ -6,10 +6,10 @@ function GiftsSectionTwo() {
       <div className="GiftsSectionTwo__content">
         <div className="GiftsSectionTwo__content_center">
           <div className="GiftsSectionTwo_top"></div>
-          <h2 className="GiftsSectionTwo_header">Watch great cinema</h2>
+          <h2 className="GiftsSectionTwo_header">Watch unique cinema</h2>
           <p className="GiftsSectionTwo_text">
-            MUBI is an ever-changing curation of beautiful, interesting,
-            incredible films.
+            FilmArte is a new artistic visual platform where you discover new
+            cinema.
           </p>
         </div>
       </div>

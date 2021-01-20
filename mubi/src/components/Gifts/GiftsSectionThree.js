@@ -10,10 +10,10 @@ function GiftsSectionThree() {
           <div className="GiftsSectionThree__logo">
             <SectionLogo />
           </div>
-          <h2 className="GiftsSectionThree__header">Anytime, anywhere</h2>
+          <h2 className="GiftsSectionThree__header">Watch Anywhere</h2>
           <p className="GiftsSectionThree__text">
-            Watch MUBI wherever you are. Stream or download any film. Watch at
-            home, or on any device.
+            Watch FilmArte at the comfort zone of your home. Great cinema comes
+            straight to you.
           </p>
         </div>
       </div>
