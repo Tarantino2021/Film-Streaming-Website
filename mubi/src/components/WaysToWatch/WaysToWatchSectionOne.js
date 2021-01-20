@@ -13,18 +13,18 @@ function WaysToWatchSectionOne() {
     <div className="WaysToWatchSectionOne">
       <div className="WaysToWatchSectionOne_header">
         <h1>FilmArte</h1>
-        <h1>START WATCHING ANYTIME, ANYWHERE</h1>
-        <Link onClick={() => setModal(true)}>TRY 7 DAYS FREE</Link>
+        <h1>START BRINGING YOUR CINEMA HOME</h1>
+        <Link onClick={() => setModal(true)}>TRY IT NOW</Link>
       </div>
       <div className="WaysToWatchSectionOne_body">
         <div className="WaysToWatchSectionOne_left">
           <h1>ON THE GO</h1>
           <span className="WaysToWatchSectionOne_textOne">
-            Download films in HD
+            Stream films now
           </span>
-          <span className="WaysToWatchSectionOne_textTwo">Watch offline</span>
+          <span className="WaysToWatchSectionOne_textTwo">Watch now</span>
           <span className="WaysToWatchSectionOne_textThree">
-            Get Film of the Day notifications
+            Get hand-picked cinema at home.
           </span>
           <div className="LogoOne">
             <img src={WaysToWatchLogo} />

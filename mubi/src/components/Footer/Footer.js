@@ -9,7 +9,7 @@ function Footer() {
         <div className="PressSectionFooter_left">
           <ul>
             <li>
-              <Link to="/gifts">Gift MUBI</Link>
+              <Link to="/gifts">Gifts</Link>
             </li>
             <li>
               <Link to="/memberships">Memberships</Link>

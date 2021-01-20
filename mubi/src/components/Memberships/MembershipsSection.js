@@ -13,7 +13,7 @@ function MembershipsSection() {
     <div className="MembershipsSection">
       <div className="MembershipsSection_wrapper">
         <div className="MembershipsSection_table">
-          <h2>MUBI</h2>
+          <h2>FilmArte</h2>
           {MembershipData.map((data) => (
             <div className="MembershipsSection_tableRow">
               <div className="MembershipsSection_tableRow_border" />
@@ -24,7 +24,7 @@ function MembershipsSection() {
           <div className="MembershipsSection_tableRow_last">
             <h1>Monthly price</h1>
             <h3>
-              <span>$10.99</span>/month
+              <span>$80.99</span>/month
             </h3>
           </div>
         </div>
@@ -32,7 +32,7 @@ function MembershipsSection() {
           className="MembershipsSection_button"
           onClick={() => setModal(true)}
         >
-          Start Your Membership
+          Start Now
         </Link>
       </div>
     </div>

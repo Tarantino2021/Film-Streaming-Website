@@ -126,41 +126,41 @@ export const PressStoryData = [
     title: "TechCrunch",
     date: "December 2019",
     text:
-      " MUBI's Production Effort Nets It a Sundance Selection As The Company Goes Cashflow Positive",
+      " Ennui listicle prism meditation poke. Vape hella neutra PBR&B normcore craft beer meh chi",
   },
   {
     id: 2,
     title: "GQ",
-    date: "November 2019",
+    date: "November 2020",
     text:
-      "Everything You Want To Know About MUBI, The Newest Streaming Platform To Come To India",
+      "Kickstarter green juice normcore VHS subway tile thundercats. Fixie shaman put a bird.",
   },
   {
     id: 3,
     title: "Vogue",
     date: "November 2019",
-    text: "How To Find The Right Streaming Service For You",
+    text: "Literally 8-bit cloud bread, vape deep v semiotics. ",
   },
   {
     id: 4,
     title: "The Guardian",
     date: "October 2019",
     text:
-      "Streaming: The Best Film of 2019? Young Russian Director Kantemir Balagov Wowed Cannes With The Bleak, Beautiful Beanpole, Streaming Now On MUBI",
+      "Adaptogen pop-up brunch synth subway tile trust fund four loko master cleanse wolf pug vape succulents. Bushwick offal truffaut yuccie",
   },
   {
     id: 5,
     title: "Deadline",
-    date: "August 2019",
+    date: "August 2020",
     text:
-      "Luca Guadagnino’s ‘The Staggering Girl’ With Julianne Moore Acquired By Streaming Service MUBI For World Rights",
+      " Literally 8-bit cloud bread, vape deep v semiotics gochujang ramps keffiyeh vexillologist.",
   },
   {
     id: 6,
     title: "Variety",
-    date: "May 2019",
+    date: "May 2017",
     text:
-      "MUBI, in Cannes With ‘Port Authority,’ Steps Up Production Activity ",
+      "Subway tile craft beer, gluten-free echo park cold-pressed leggings organic man.",
   },
 ];
 
@@ -168,23 +168,22 @@ export const MembershipData = [
   {
     id: 1,
     checkMark: <SectionCheckMark />,
-    title: "7 day free trial",
+    title: "10 day free trial",
   },
   {
     id: 2,
     checkMark: <SectionCheckMark />,
-    title:
-      "Incredible cinema to stream anytime, on MUBI. A new film every day.",
+    title: "Uniqe cinema for every taste.",
   },
   {
     id: 3,
     checkMark: <SectionX />,
-    title: "A hand-picked cinema ticket, every single week.",
+    title: "Artistic visuals to your home",
   },
   {
     id: 4,
     checkMark: <SectionCheckMark />,
-    title: "Download films with iOS or Android.",
+    title: "Download available on all devices.",
   },
   {
     id: 5,
@@ -194,7 +193,7 @@ export const MembershipData = [
   {
     id: 6,
     checkMark: <SectionCheckMark />,
-    title: "No ads. Ever.",
+    title: "10 day refund guarantee",
   },
 ];
 

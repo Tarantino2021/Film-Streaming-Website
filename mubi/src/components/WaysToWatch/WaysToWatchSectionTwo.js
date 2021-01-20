@@ -11,15 +11,15 @@ function WaysToWatchSectionTwo() {
           <img src={WaysToWatch2} />
         </div>
         <div className="WaysToWatchSectionTwo_right">
-          <h1>ON THE BIG SCREEN</h1>
+          <h1>ON YOUR SCREEN</h1>
           <span className="WaysToWatchSectionTwo_textOne">
-            Watch on up to 5 devices
+            Watch on every device
           </span>
           <span className="WaysToWatchSectionTwo_textTwo">
-            2 screens at the same time
+            at your own comfort
           </span>
           <span className="WaysToWatchSectionTwo_textThree">
-            Google Cast and Apple AirPlay
+            On your phone and TV
           </span>
 
           <img src={WaysToWatchLogo2} />
