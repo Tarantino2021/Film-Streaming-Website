@@ -1,7 +1,4 @@
 import React, { useContext } from "react";
-import image4 from "../../photos/Gifts/image4.jpg";
-import image5 from "../../photos/Gifts/image5.jpg";
-import image6 from "../../photos/Gifts/image6.jpg";
 //playbtn
 import { IoMdPlay } from "react-icons/io";
 //framer motion
@@ -20,13 +17,7 @@ import MyGlobalContext from "../../context/context";
 import YouTube from "react-youtube";
 
 function GiftsSectionFiveGrid() {
-  const {
-    youtubeModal,
-    setYoutubeModal,
-    setModal,
-    handleClickTrailer,
-    trailer,
-  } = useContext(MyGlobalContext);
+  const { setModal, handleClickTrailer, trailer } = useContext(MyGlobalContext);
 
   const { scrollYProgress } = useViewportScroll();
   const ScrollOpacity = useTransform(scrollYProgress, [0, 0.15], [1, 0]);
@@ -37,9 +28,9 @@ function GiftsSectionFiveGrid() {
     <div className="GiftsSectionFiveGrid">
       <div className="GiftsSectionFiveGrid_content">
         <div className="GiftsSectionFiveGrid__content_center">
-          <h2 className="GiftsSectionFiveGrid__header">Now Showing</h2>
+          <h2 className="GiftsSectionFiveGrid__header">Our Collection</h2>
           <p className="GiftsSectionFiveGrid__text">
-            Sign up now to start watching our hand-picked line-up.
+            Subscribe now to watch more movies from our unique-collection.
           </p>
           <div className="GiftsSectionFiveGrid__grid_wrapper_outter">
             <div className="GiftsSectionFiveGrid_grid_content">
@@ -93,17 +84,17 @@ function GiftsSectionFiveGrid() {
                     </Link>
                   </div>
                   <div className="GiftsSectionFiveGrid_grid__container-3">
-                    <h1>WATCH GREAT CINEMA</h1>
+                    <h1>WATCH UNIQUE FILMS</h1>
                     <p>
-                      A hand-picked selection of the best films from around the
-                      globe.
+                      An art-house cinema that comes from us to your home
+                      screen.
                     </p>
                     <SectionLogoBlue className="GiftsSectionFiveGrid_logo" />
                     <Link
                       onClick={() => setModal(true)}
                       className="GiftsSectionFiveGrid_btn"
                     >
-                      GIFT MUBI
+                      GIFT NOW
                     </Link>
                   </div>
                 </div>
