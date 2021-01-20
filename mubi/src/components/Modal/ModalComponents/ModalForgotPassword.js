@@ -1,8 +1,7 @@
 import React, { useContext, useRef } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-//svg
-import { LogoBlack } from "../../utils/svg";
+
 import { GrClose } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
 import { IoMdArrowDropleft } from "react-icons/io";
@@ -43,7 +42,7 @@ function ModalForgotPassword() {
       (
       <motion.div className="Modal_content_password">
         <div className="Modal_header_password ">
-          <LogoBlack />
+          <h1>FilmArte</h1>
           <motion.h3
             initial={{ y: "-200%" }}
             animate={{ y: 0 }}

@@ -2,8 +2,7 @@ import React, { useContext, useState } from "react";
 import YouTube from "react-youtube";
 //context
 import MyGlobalContext from "../../context/context";
-//svg
-import { LogoBlack } from "../utils/svg";
+
 import { GrClose } from "react-icons/gr";
 //framer motion
 import { motion } from "framer-motion";
@@ -29,7 +28,7 @@ function YoutubeModal() {
       >
         <div className="YoutubeModal_content">
           <div className="YoutubeModal_header">
-            <LogoBlack />
+            <h1>FilmArte</h1>
             <motion.h3
               initial={{ y: "-200%" }}
               animate={{ y: 0 }}

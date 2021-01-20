@@ -2,8 +2,6 @@ import React, { useContext, useRef } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
-//svg
-import { LogoBlack } from "../../utils/svg";
 import { GrClose } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
 //context
@@ -50,7 +48,7 @@ function ModalLogin() {
   return (
     <div className="Modal_content">
       <div className="Modal_header">
-        <LogoBlack />
+        <h1>FilmArte</h1>
         <motion.h3
           initial={{ y: "-220%" }}
           animate={{ y: 0 }}

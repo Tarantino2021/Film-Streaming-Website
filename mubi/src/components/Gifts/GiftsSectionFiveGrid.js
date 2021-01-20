@@ -18,8 +18,6 @@ import Gift14 from "../../photos/Gifts/GiftImg14.jpg";
 //context
 import MyGlobalContext from "../../context/context";
 import YouTube from "react-youtube";
-//Api
-import apiRequests from "../utils/apiRequests";
 
 function GiftsSectionFiveGrid() {
   const {

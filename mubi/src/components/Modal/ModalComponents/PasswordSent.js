@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-//svg
-import { LogoBlack } from "../../utils/svg";
+
 import { IoMdArrowDropleft } from "react-icons/io";
 import { GrClose } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
@@ -17,7 +16,7 @@ function PasswordSent() {
       (
       <motion.div className="PasswordSent_content">
         <div className="PasswordSent_header ">
-          <LogoBlack />
+          <h1>FilmArte</h1>
           <motion.h3
             initial={{ y: "-200%" }}
             animate={{ y: 0 }}

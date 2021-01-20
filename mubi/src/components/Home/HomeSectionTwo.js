@@ -3,8 +3,7 @@ import image1 from "../../photos/Home/image1.jpg";
 import image2 from "../../photos/Home/image2.jpg";
 import image3 from "../../photos/Home/image3.jpg";
 import { motion, useAnimation, useViewportScroll } from "framer-motion";
-//svg
-import { LogoBlack } from "../utils/svg";
+
 //animation/
 import { useInView } from "react-intersection-observer";
 
@@ -55,7 +54,7 @@ function HomeSectionTwo() {
       <div className="HomeSectionTwo">
         <div className="HomeSectionTwo__top">
           <div className="HomeSectionTwo__logo__wrapper">
-            <LogoBlack />
+            <h1>FilmArte</h1>
           </div>
 
           <div className="HomeSectionTwo__text">

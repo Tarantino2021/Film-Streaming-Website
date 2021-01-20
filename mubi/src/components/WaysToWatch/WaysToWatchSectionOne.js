@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { LogoBlack } from "../utils/svg";
+
 import WaysToWatch1 from "../../photos/WaysToWatch/WaysToWatch1.png";
 import WaysToWatchLogo from "../../photos/WaysToWatch/WaysToWatchLogo.png";
 //context
@@ -12,7 +12,7 @@ function WaysToWatchSectionOne() {
   return (
     <div className="WaysToWatchSectionOne">
       <div className="WaysToWatchSectionOne_header">
-        <LogoBlack />
+        <h1>FilmArte</h1>
         <h1>START WATCHING ANYTIME, ANYWHERE</h1>
         <Link onClick={() => setModal(true)}>TRY 7 DAYS FREE</Link>
       </div>

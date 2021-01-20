@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-//svg
-import { LogoBlack } from "../../utils/svg";
+
 import { GrClose } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
 //framer motion
@@ -16,7 +15,7 @@ function LogedIn() {
       (
       <motion.div className="Modal_content_password">
         <div className="Modal_header_password ">
-          <LogoBlack />
+          <h1>FilmArte</h1>
           <motion.h3
             initial={{ y: "-200%" }}
             animate={{ y: 0 }}

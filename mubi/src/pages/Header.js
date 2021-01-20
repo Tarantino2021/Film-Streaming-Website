@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 import Tooltip from "../components/Header/Tooltip";
 //link
 import { Link } from "react-router-dom";
-//svg
-import { LogoWhite } from "../components/utils/svg";
 //context
 import MyGlobalContext from "../context/context";
 
@@ -21,7 +19,7 @@ function Header() {
     <div className="header">
       <div className="nav">
         <Link onClick={() => setClicked(false)} to="/">
-          <LogoWhite />
+          <h1 className="logo_top">FilmArte</h1>
         </Link>
       </div>
       <div className="login">

@@ -5,7 +5,6 @@ import HomeParralaxSectionTwo from "../components/Home/HomeParralaxSectionTwo";
 import HomeSectionTwo from "../components/Home/HomeSectionTwo";
 import HomeSectionLast from "../components/Home/HomeSectionLast";
 import HomeOne from "../photos/Home/home1.jpg";
-
 //svg
 import { SectionLogo } from "../components/utils/svg";
 

@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-//svg
-import { LogoBlack } from "../../utils/svg";
+
 import { GrClose } from "react-icons/gr";
 import { ImFacebook2 } from "react-icons/im";
 //framer motion
@@ -16,7 +15,7 @@ function SignedUp() {
       (
       <motion.div className="SignedUp_content">
         <div className="SignedUp_header ">
-          <LogoBlack />
+          <h1>FilmArte</h1>
           <motion.h3
             initial={{ y: "-200%" }}
             animate={{ y: 0 }}
