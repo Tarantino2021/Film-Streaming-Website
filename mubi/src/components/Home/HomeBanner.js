@@ -60,7 +60,7 @@ function HomeBanner() {
 
           {/* banner btn */}
           <Link onClick={() => setModal(true)}>
-            <div className="btn_wrapper">TRY 7 DAYS FREE</div>
+            <div className="btn_wrapper">TRY IT NOW</div>
           </Link>
 
           {/* banner text */}
@@ -72,7 +72,7 @@ function HomeBanner() {
                     style={{ opacity: TextOne, y: TextOneY }}
                     className="text_wrapper"
                   >
-                    <div className="text">Watch hand-picked cinema</div>
+                    <div className="text">Watch art-house cinema</div>
                   </motion.div>
 
                   <motion.div
@@ -80,9 +80,9 @@ function HomeBanner() {
                     className="text_wrapper"
                   >
                     <div className="text">
-                      Beautiful, interesting,
+                      Beautiful, inspiring,
                       <br />
-                      <span> </span>incredible movies.
+                      <span> </span>visual movies.
                     </div>
                   </motion.div>
                   <motion.div
@@ -92,7 +92,7 @@ function HomeBanner() {
                     <div className="text">
                       A New Film
                       <br />
-                      <span> </span>Every Single Day.
+                      <span> </span>Every single week.
                     </div>
                   </motion.div>
                 </div>

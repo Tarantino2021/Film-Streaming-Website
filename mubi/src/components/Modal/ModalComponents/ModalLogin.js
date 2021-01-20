@@ -105,7 +105,7 @@ function ModalLogin() {
         </form>
         <div className="Modal_last">
           <h1>
-            New to MUBI?
+            New to FilmArte?
             <Link onClick={handleSignUpPage}>Sign up Now</Link>
           </h1>
         </div>

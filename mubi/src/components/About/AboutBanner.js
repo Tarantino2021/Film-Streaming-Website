@@ -8,10 +8,10 @@ function AboutBanner() {
   return (
     <div className="AboutBanner">
       <img src={banner1} />
-      <h1>What is MUBI</h1>
+      <h1>What is FilmArte</h1>
       <p>
-        A streaming service? A curator? A publisher? A distributor? A cinema
-        lover? Yes.
+        A streaming platfrom. A film lover hub. An art-house platform. A cinema
+        hub.
       </p>
       <div className="About_overlay" />
     </div>

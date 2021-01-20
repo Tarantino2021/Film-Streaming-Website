@@ -17,9 +17,9 @@ function Home() {
         <HomeParralaxSection
           picture={HomeOne}
           textOne={"Stream or download"}
-          textTwo={"all our movies, anytime."}
-          textTree={"On any screen or"}
-          textFour={"device, anywhere."}
+          textTwo={"our unique collection"}
+          textTree={"of art-house cinema."}
+          textFour={"All devices included."}
           logo={<SectionLogo />}
         />
         <HomeSectionTwo />

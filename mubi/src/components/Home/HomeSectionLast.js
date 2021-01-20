@@ -11,14 +11,14 @@ function HomeSectionLast() {
       <div className="HomeSectionLast_wrapper">
         <div className="HomeSectionLast__text_wrraper">
           <div className="HomeSectionLast_text">
-            Discover wonderful,
-            <span> </span>hand-picked cinema.
-            <br />A new film every single day.
+            Discover beautiful,
+            <span> </span>art-house films.
+            <br />A new visual every single weekend.
           </div>
         </div>
         <div className="HomeSectionLast_btn_wrapper">
           <Link className="HomeSectionLast_btn" onClick={() => setModal(true)}>
-            TRY 7 DAYS FREE
+            TRY IT NOW
           </Link>
         </div>
         <p class="HomeSectionLast_paragraph">

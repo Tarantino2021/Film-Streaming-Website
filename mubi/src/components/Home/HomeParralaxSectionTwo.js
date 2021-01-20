@@ -20,15 +20,15 @@ function HomeParralaxSectionTwo() {
 
         <div className="HomeParralaxSection__text_wrapper_Two">
           <div className="HomeParralaxSection__text_Two">
-            JOIN THE WORLD'S BIGGEST
+            JOIN US ON THIS PLATFORM
             <br />
-            <span> </span> COMMUNITY OF FILM LOVERS.
+            <span> </span> BRINGING VISUALS FROM WORLD.
             <br />
             <span> </span> EXPLORE AND DISCUSS GREAT
             <br />
-            <span> </span> CINEMA WITH OVER 10,886,174
+            <span> </span> CINEMA WITH OVER MILLION
             <br />
-            MEMBERS.
+            SUBCSCRIBERS.
           </div>
         </div>
       </div>

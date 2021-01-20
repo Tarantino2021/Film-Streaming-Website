@@ -58,13 +58,13 @@ function HomeSectionTwo() {
           </div>
 
           <div className="HomeSectionTwo__text">
-            From cult classics to modern masterpieces.
+            From cult classics to modern visuals.
             <br />
-            <span> </span>From the greatest ever directors,
+            <span> </span>From the greatest ever filmmakers,
             <br />
-            <span> </span>to the greatest new directors.
+            <span> </span>to the young talents living now.
             <br />
-            <span> </span>Films from everywhere on earth.
+            <span> </span>Every film you love hand-picked.
           </div>
         </div>
 
