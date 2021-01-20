@@ -8,7 +8,7 @@ function AboutSectionFive() {
   return (
     <div className="AboutSectionFive">
       <div className="AboutSectionFive_header">
-        <h1>ANYTIME,ANYWYWERE</h1>
+        <h1>DEVICES,ANYWHERE</h1>
         <h3>
           Watch on all possible devices our hand-picked cinema.
           <br />

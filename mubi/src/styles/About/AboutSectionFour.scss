@@ -103,6 +103,11 @@
       height: 418px;
       object-fit: cover;
       margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s ease-in-out;
+      }
       @include media("<=laptop") {
         height: 270px;
         width: 210px;
