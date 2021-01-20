@@ -13,8 +13,8 @@ function AboutSectionOne() {
   return (
     <div className="AboutSectionOne">
       <div className="AboutSectionOne_header">
-        <h3>Every day we introduce a new…</h3>
-        <h1>FILM OF THE DAY</h1>
+        <h3>Every week we bring new visuals...</h3>
+        <h1>OUR FILM CHOICE</h1>
       </div>
       <div
         className="AboutSectionOne_image"
@@ -41,9 +41,10 @@ function AboutSectionOne() {
       </div>
       <div className="AboutSectionOne_text">
         <p>
-          From new directors to award-winners. From everywhere on earth.
-          Beautiful, interesting, incredible movies — a new one, every single
-          day. Always chosen by us.
+          Bringing the visual art to your home screen. Sign up and you will see
+          the the underground cinema. If you are a film love, you want to
+          discover new art, FilmArte is the place to be for you to discover
+          art-house gems.
         </p>
       </div>
     </div>

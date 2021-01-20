@@ -48,7 +48,7 @@ function AboutSectionTwo() {
   return (
     <>
       <div className="AboutSectionTwo">
-        <h1 className="AboutSectionTwo__text">NOW SHOWING ON MUBI</h1>
+        <h1 className="AboutSectionTwo__text">NOW SHOWING ON FILMARTE</h1>
         <div className="AboutSectionTwo_bottom">
           <div className="AboutSectionTwo_videos__wrapper">
             <div className="AboutSectionTwo_video">

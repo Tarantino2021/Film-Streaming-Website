@@ -38,10 +38,10 @@ function AboutSectionThree() {
   return (
     <div className="AboutSectionThree">
       <div className="AboutSectionThree_header">
-        <h1>SPECIALS</h1>
+        <h1>VISUALS</h1>
         <h3>
-          Our hand-picked line-up includes double features, filmmaker
-          retrospectives, spotlights on major film festivals and more.
+          Our collection infludes hand-picked artistic cinema and undiscovered
+          art-films.
         </h3>
       </div>
       <div

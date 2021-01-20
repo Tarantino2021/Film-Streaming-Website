@@ -8,11 +8,11 @@ function AboutSectionFive() {
   return (
     <div className="AboutSectionFive">
       <div className="AboutSectionFive_header">
-        <h1>ANYTIME, ANYWHERE</h1>
+        <h1>ANYTIME,ANYWYWERE</h1>
         <h3>
-          Watch on your PC, Mac, iPhone, iPad, Apple TV, Apple TV App, Android,
+          Watch on all possible devices our hand-picked cinema.
           <br />
-          Playstation, Roku, and Samsung Smart TV.
+          We offer you all the possibilites
         </h3>
       </div>
       <div className="AboutSectionFive_images">

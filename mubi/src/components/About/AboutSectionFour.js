@@ -8,12 +8,11 @@ function AboutSectionFour() {
   return (
     <div className="AboutSectionFour">
       <div className="AboutSectionFour_header">
-        <h1>MUBI RELEASES</h1>
+        <h1>FILMARTE RELEASES</h1>
         <h3>
-          We believe cinema should be viewed on screens of all shapes and sizes.
-          Our curators scour film festivals for the most exciting and original
-          new films, which we bring to the big screen with the same care and
-          attention we give to our curated platform.
+          We think that cinema needs to be seen in the movie theatres, but in
+          the worlds where most of people need to find new ideas. We offer you
+          unique art form.
         </h3>
       </div>
       <div className="AboutSectionFour_posters">
