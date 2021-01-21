@@ -7,7 +7,7 @@ import WaysToWatchLogo from "../../photos/WaysToWatch/WaysToWatchLogo.png";
 import MyGlobalContext from "../../context/context";
 
 function WaysToWatchSectionOne() {
-  const { modal, setModal } = useContext(MyGlobalContext);
+  const { setModal } = useContext(MyGlobalContext);
 
   return (
     <div className="WaysToWatchSectionOne">
