@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import image1 from "../../photos/Home/image1.jpg";
 import image2 from "../../photos/Home/image2.jpg";
 import image3 from "../../photos/Home/image3.jpg";

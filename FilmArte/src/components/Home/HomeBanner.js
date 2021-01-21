@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 //context
@@ -6,7 +6,7 @@ import MyGlobalContext from "../../context/context";
 
 function HomeBanner() {
   const { scrollYProgress } = useViewportScroll();
-  const { modal, setModal } = useContext(MyGlobalContext);
+  const { setModal } = useContext(MyGlobalContext);
 
   const TextOneY = useTransform(scrollYProgress, [0, 0.15], ["0%", "-43%"]);
   const TextTwoY = useTransform(
