@@ -2,13 +2,12 @@ import React, { useContext } from "react";
 import sectionOne2 from "../../photos/About/sectionOne2.jpg";
 //playbtn
 import { IoMdPlay } from "react-icons/io";
-//react router
-import { Link } from "react-router-dom";
+
 //context
 import MyGlobalContext from "../../context/context";
 
 function AboutSectionOne() {
-  const { modal, setModal, handleClickTrailer } = useContext(MyGlobalContext);
+  const { handleClickTrailer } = useContext(MyGlobalContext);
 
   return (
     <div className="AboutSectionOne">

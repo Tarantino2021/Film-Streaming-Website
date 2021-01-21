@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-import { motion, useAnimation, useViewportScroll } from "framer-motion";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
 //images
 import sectionTwo1 from "../../photos/About/sectionTwo1.jpg";
 import sectionTwo2 from "../../photos/About/sectionTwo2.jpg";

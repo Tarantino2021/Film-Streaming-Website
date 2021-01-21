@@ -1,8 +1,5 @@
 import React from "react";
 import banner1 from "../../photos/About/banner1.jpg";
-import banner2 from "../../photos/About/banner2.jpg";
-import banner3 from "../../photos/About/banner3.jpg";
-import banner4 from "../../photos/About/banner4.png";
 
 function AboutBanner() {
   return (
