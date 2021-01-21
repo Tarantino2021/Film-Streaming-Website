@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 import { IoMdArrowDropleft } from "react-icons/io";
 import { GrClose } from "react-icons/gr";
-import { ImFacebook2 } from "react-icons/im";
 //framer motion
 import { motion } from "framer-motion";
 //context

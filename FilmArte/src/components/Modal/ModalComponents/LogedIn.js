@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-
 import { GrClose } from "react-icons/gr";
-import { ImFacebook2 } from "react-icons/im";
+
 //framer motion
 import { motion } from "framer-motion";
 //context

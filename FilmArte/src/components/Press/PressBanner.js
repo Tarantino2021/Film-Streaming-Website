@@ -1,6 +1,5 @@
 import React from "react";
 import BannerImage from "../../photos/Press/pressHeader.jpg";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 function PressBanner() {
   return (

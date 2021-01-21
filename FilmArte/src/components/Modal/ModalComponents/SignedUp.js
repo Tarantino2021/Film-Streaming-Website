@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import MyGlobalContext from "../../../context/context";
 
 function SignedUp() {
-  const { handleLoginPage, setModal } = useContext(MyGlobalContext);
+  const { setModal } = useContext(MyGlobalContext);
 
   return (
     <>

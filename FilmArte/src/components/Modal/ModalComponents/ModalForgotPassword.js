@@ -1,9 +1,7 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 import { GrClose } from "react-icons/gr";
-import { ImFacebook2 } from "react-icons/im";
 import { IoMdArrowDropleft } from "react-icons/io";
 //context
 import MyGlobalContext from "../../../context/context";

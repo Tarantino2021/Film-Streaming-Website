@@ -1,4 +1,4 @@
-import React, { useContext, useRef } from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -19,7 +19,6 @@ function ModalLogin() {
     handleSignUpPage,
     setModal,
     handleSubmitLogIn,
-    modalState,
   } = useContext(MyGlobalContext);
 
   //form validation
