@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import GlobalContext from "./context";
-//datas
-import { GiftGridData } from "../components/utils/data";
 
 function ContextProvider({ children }) {
   //Youtube modal
