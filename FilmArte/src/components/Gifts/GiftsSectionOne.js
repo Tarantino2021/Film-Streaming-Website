@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import MyGlobalContext from "../../context/context";
 
 function GiftsSectionOne() {
-  const { modal, setModal } = useContext(MyGlobalContext);
+  const { setModal } = useContext(MyGlobalContext);
 
   return (
     <div className="GiftsSectionOne">

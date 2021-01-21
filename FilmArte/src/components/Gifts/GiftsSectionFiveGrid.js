@@ -14,7 +14,6 @@ import Gift13 from "../../photos/Gifts/GiftImg13.jpg";
 import Gift14 from "../../photos/Gifts/GiftImg14.jpg";
 //context
 import MyGlobalContext from "../../context/context";
-import YouTube from "react-youtube";
 
 function GiftsSectionFiveGrid() {
   const { setModal, handleClickTrailer, trailer } = useContext(MyGlobalContext);

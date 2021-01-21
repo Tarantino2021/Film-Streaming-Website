@@ -1,7 +1,6 @@
 import React from "react";
 import GiftIconBadge from "../../photos/Gifts/GiftIconBadge.png";
 import GiftIconOne from "../../photos/Gifts/GiftIconOne.png";
-import { Link, Redirect } from "react-router-dom";
 
 function GiftsSectionFour() {
   return (
