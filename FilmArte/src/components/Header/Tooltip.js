@@ -1,4 +1,4 @@
-import React, { useEffect, useContext } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 //socialIcons/
 import { ImFacebook2 } from "react-icons/im";
@@ -13,7 +13,7 @@ import MyGlobalContext from "../../context/context";
 import { menuData } from "../utils/data";
 
 function Tooltip() {
-  const { clicked, setClicked } = useContext(MyGlobalContext);
+  const { setClicked } = useContext(MyGlobalContext);
 
   return (
     <div>
