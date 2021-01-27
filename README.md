@@ -1,6 +1,6 @@
 # Film-Streaming-Website
 
-Movie Streaming mock website inspired by multiple website UI/UX designs. I have combined those to build this website. It has 7 pages with their own contents. I used FlexBox and Grids extensively in the website. It is fully responsive. I have used functional components and hooks as well as Context API.
+Movie Streaming mock website inspired by multiple website UI/UX designs. I have combined those to build this website. It has 7 pages with their own contents. I used FlexBox and Grids extensively in the website. It is fully responsive. I have used functional components and hooks as well as Context API. 
 
 
 * Home has 5 sections with each being a component. I utilize Framer motion scroll animation to transition between the headline text as we scroll down the Banner section. The other sections include parallax effect with the scroll animation.
@@ -16,9 +16,6 @@ Movie Streaming mock website inspired by multiple website UI/UX designs. I have 
 * WaysToWatch/ Memberships these pages have different layouts but they are pretty static and both use FlexBox to create tables in their own pages.
 
 * Modal has various components within itself. I have utilized the react Hooks and conditional rendering to see what the user clicked on. Initial state is "LogIn", but i pass in conditional string into state based on the click events it shows the component: SignUp,LogIn,PassWord,Sent..
-
-The entire application is wrapped around Context API and is passing all the needed data down to whatever component is needed. Most of the state and functionality is in the Context.
-
 
 
 I utilized in this project:
