@@ -19,6 +19,8 @@ Movie Streaming mock website inspired by multiple website UI/UX designs. I have 
 
 The entire application is wrapped around Context API and is passing all the needed data down to whatever component is needed. Most of the state and functionality is in the Context.
 
+
+
 I utilized in this project:
 
 * ReactJS
