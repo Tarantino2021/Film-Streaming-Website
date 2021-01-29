@@ -20,7 +20,7 @@ import Modal from "./components/Modal/Modal";
 import { motion } from "framer-motion";
 
 function App() {
-  const { modal, youttubeModal } = useContext(MyGlobalContext);
+  const { modal, youttubeModal, setClicked } = useContext(MyGlobalContext);
 
   //hides the scroll functionality when the modal is open
   useEffect(() => {
@@ -56,7 +56,7 @@ function App() {
       <Header />
       {modal && <Modal />}
       {youttubeModal && <YoutubeModal />}
-      <motion.div className="App">
+      <motion.div className="App" onClick={() => setClicked(false)}>
         <Switch>
           <Route path="/gifts" component={Gifts} />
           <Route path="/press" component={Press} />
