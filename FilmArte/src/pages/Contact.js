@@ -1,6 +1,5 @@
 import React from "react";
 import ContactSection from "../components/Contact/ContactSection";
-import Banner2 from "../photos/Contact/Banner2.jpg";
 //socialIcons/
 import { ImFacebook2 } from "react-icons/im";
 import { ImTwitter } from "react-icons/im";
